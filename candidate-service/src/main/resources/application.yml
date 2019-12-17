@@ -1,0 +1,12 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: candidate-service
+
+  data:
+    mongodb:
+      database: shortlist-test
+      port: 27017
+      host: localhost
